@@ -12,6 +12,7 @@
 .user-component__column:first-child {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .user-component .user-component__column:first-child {

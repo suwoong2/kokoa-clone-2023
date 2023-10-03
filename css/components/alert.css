@@ -1,8 +1,16 @@
 .alert {
-    width:6px;
-    height: 6px;
+    width: 5px;
+    height: 5px;
     background-color: tomato;
-    border-radius: 3px;
+    border-radius: 2.5px;
     position: absolute;
-    top:0;
+}
+.icon {
+    right: -6px;
+    top: -7px;
+}
+
+.user {
+    top:0px;
+    left:0px;
 }
