@@ -93,3 +93,15 @@
 .open-post__heart-count span {
     margin-left: 5px;
 }
+
+@keyframes heartCountAnimation {
+    from {
+        color : white; 
+    }to{
+        color : red;
+    }
+}
+
+.open-post__heart-count:hover {
+    animation : heartCountAnimation 0.3s ease-in-out forwards;
+}

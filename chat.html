@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Kokoa Talk</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>SKT</span>
+            <i class="fa-solid fa-wifi"></i>
+            <!-- To Do: Wifi Icon        </div> -->
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt"></i>
+            <!-- Battery Icon -->
+            <!-- Lightning Icon -->
+        </div>
+    </div>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fa-solid fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">수웅</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2023
+        </div>
+
+        <div class="message-row">
+            <img src="http://127.0.0.1:5500/screenshots/avatar.jpeg" alt="">
+            <div class="message-row__content">
+                <span class="message__author">수웅</span>
+                <div class="message__info">
+                    <span class="message__bubble">ㅎㅇ</span>
+                    <class class="message__time">20:17</class>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">ㅗ</span>
+                    <class class="message__time">20:17</class>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write Message">
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <script src="https://kit.fontawesome.com/51cfa7eb99.js" crossorigin="anonymous"></script>
+</body>
+</html>

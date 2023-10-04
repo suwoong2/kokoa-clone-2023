@@ -15,3 +15,15 @@
     margin-left: 30px;
     position: relative;
 }
+
+@keyframes rotateCogAnimation {
+    from {
+        transform : none;
+    }to {
+        transform : rotateZ(360deg);
+    }
+}
+
+.screen-header .fa-gear:hover {
+    animation : rotateCogAnimation 1s linear infinite;
+}
