@@ -2,6 +2,9 @@
     justify-content: space-between;
     margin-bottom: 25px;
 }
+.user-component:active {
+    background-color: var(--event);
+}
 .user-component__column__statemessage {
     color : rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.5);

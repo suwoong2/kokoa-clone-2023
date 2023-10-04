@@ -11,13 +11,16 @@
 @import "components/alert.css";
 @import "components/status-bar.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 body {
-    padding-top: 0px;
+    padding-top: 26px;
     height: 1000vh;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100%;

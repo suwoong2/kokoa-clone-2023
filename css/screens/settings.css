@@ -1,0 +1,49 @@
+.settings__setting {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting-column-devinder {
+    height: 1px;
+    background-color:rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+.settings__setting i {
+    margin-right: 20px;
+    font-size: 22px;
+    opacity: 0.8;
+    color: black;
+}
+
+.settings__setting-column span {
+    margin-right: 8px;
+}
+.settings__setting-column {
+    display: flex;
+}
+
+.settings__setting:active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.settings__setting-column:nth-child(2) {
+    opacity: 0.5;
+}
+.settings__setting:nth-child(3) i {
+    margin-left: 6px;
+}
+
+.settings__setting:nth-child(3) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.settings__setting:nth-child(11) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0)
+}
+
+.settiing__icon {
+    font-weight: 200;
+}
